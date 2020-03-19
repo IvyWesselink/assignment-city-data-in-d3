@@ -1,5 +1,5 @@
 // this is your custom javascript code
-d3.select("body").append("svg");
+d3.select("body").append("svg")
     .attr('viewbox', '0 0 720 360')
     .attr('width', '720')
     .attr('height', '360');
