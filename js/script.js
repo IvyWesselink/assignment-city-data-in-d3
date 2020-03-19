@@ -1,9 +1,8 @@
 // this is your custom javascript code
-let xmlns = "http://www.w3.org/2000/svg";
-let svg = document.createElementNS(xmlns, "svg");
-svg.setAttribute("width", 720);
-svg.setAttribute("height", 360);
-svg.setAttribute("viewbox", '0 0 720 360');
+d3.select("body").append("svg")
+    .attr('viewbox', '0 0 720 360')
+    .attr('width', '720')
+    .attr('height', '360')
 
 d3.select(window).on("load", changeCircle);
 
