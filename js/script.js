@@ -2,7 +2,7 @@
 d3.select("body").append("svg")
     .attr('viewbox', '0 0 720 360')
     .attr('width', '720')
-    .attr('height', '360');
+    .attr('height', '360')
 
 d3.select(window).on("load", changeCircle);
 
